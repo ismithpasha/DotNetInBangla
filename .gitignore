@@ -6,22 +6,24 @@
 ## has more thorough IDE-specific entries.
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/Dotnet.gitignore
+## .NET Core & .NET 5/6/7/8
+## .NET Core & .NET 5/6/7/8
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-[Ww][Ii][Nn]32/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-[Ll]ogs/
+**/[Dd]ebug/
+**/[Dd]ebugPublic/
+**/[Rr]elease/
+**/[Rr]eleases/
+**/x64/
+**/x86/
+**/[Ww][Ii][Nn]32/
+**/[Aa][Rr][Mm]/
+**/[Aa][Rr][Mm]64/
+**/bld/
+**/[Bb]in/
+**/[Oo]bj/
+**/[Ll]og/
+**/[Ll]ogs/
 
 # .NET Core
 project.lock.json
@@ -33,7 +35,6 @@ ScaffoldingReadMe.txt
 
 # NuGet Packages
 *.nupkg
-# NuGet Symbol Packages
 *.snupkg
 
 # Others
@@ -45,10 +46,49 @@ CodeCoverage/
 *.binlog
 
 # MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
+**/[Tt]est[Rr]esult*/
+**/[Bb]uild[Ll]og.*
 
 # NUnit
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Rider IDE (JetBrains) files (optional, if you use Rider)
+.idea/
+*.sln.iml
+
+# Visual Studio for Mac
+.vscode/
+
+# VS Code directory
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer Patch files
+*.wixpdb
+
+# Windows Installer logs
+*.cab
+
+# Windows debug files
+*.pdb
+
+# Windows crash dumps
+*.dmp
+
+# Visual Studio directory
+.vs/
+
+# User-specific files
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.userprefs
